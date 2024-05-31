@@ -6,6 +6,12 @@ namespace Calculator{
                 case "+":
                     result = Add.Eval(Operands[0], Operands[1]);
                     break;
+                case "-":
+                    result = Subtract.Eval(Operands[0], Operands[1]);
+                    break;
+                case "/":
+                    result = Divide.Eval(Operands[0], Operands[1]);
+                    break;
                 case "*":
                     result = Multiply.Eval(Operands[0], Operands[1]);
                     break;
